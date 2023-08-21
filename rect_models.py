@@ -9,13 +9,13 @@ from tensorflow.keras.preprocessing.image import load_img
 st.markdown('<h1 style="color:black;">Image Classification Models</h1>', unsafe_allow_html=True)
 
 models = {
-    "TRG": "modele/trg/bench_mark_-model-20-0.98.hdf5",
-    "pT": "modele/pT/bench_mark_-model-19-0.92.hdf5",
-    "pN": "modele/pN/bench_mark_-model-25-0.97.hdf5",
-    "i_ven": "modele/iven/bench_mark_-model-25-0.91.hdf5",
-    "i_perin": "modele/iperin/bench_mark_-model-23-0.85.hdf5",
-    "i_limf": "modele/ilimf/bench_mark_-model-23-0.91.hdf5",
-    "grd": "modele/grd/bench_mark_-model-21-1.00.hdf5"
+    "TRG": "bench_mark_-model-20-0.98.hdf5",
+    "pT": "bench_mark_-model-19-0.92.hdf5",
+    "pN": "bench_mark_-model-25-0.97.hdf5",
+    "i_ven": "bench_mark_-model-25-0.91.hdf5",
+    "i_perin": "bench_mark_-model-23-0.85.hdf5",
+    "i_limf": "bench_mark_-model-23-0.91.hdf5",
+    "grd": "bench_mark_-model-21-1.00.hdf5"
     # Add more models here
 }
 
